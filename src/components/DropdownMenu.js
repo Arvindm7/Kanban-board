@@ -36,7 +36,7 @@ const DropdownMenu = ({ groupBy, sortBy, onGroupByChange, onSortByChange }) => {
         <ul className="dropdown-menu">
           <li>
             <button className="dropdown-item" onClick={toggleGroupByDropdown}>
-              Group By {isGroupByDropdownOpen ? "▲" : "▼"}
+              Grouping {isGroupByDropdownOpen ? "▲" : "▼"}
             </button>
             {isGroupByDropdownOpen && (
               <ul className="inner-dropdown-menu">
@@ -70,7 +70,7 @@ const DropdownMenu = ({ groupBy, sortBy, onGroupByChange, onSortByChange }) => {
 
           <li>
             <button className="dropdown-item" onClick={toggleSortByDropdown}>
-              Sort By {isSortByDropdownOpen ? "▲" : "▼"}
+              Ordering {isSortByDropdownOpen ? "▲" : "▼"}
             </button>
             {isSortByDropdownOpen && (
               <ul className="inner-dropdown-menu">
